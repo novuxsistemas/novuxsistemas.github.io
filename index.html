@@ -110,17 +110,17 @@
   }
   header .wrap{
     display:flex;align-items:center;justify-content:space-between;
-    height:72px;
+    height:100px;
   }
 
   .logo{
     font-family:var(--font-display);
-    font-size:60px;font-weight:700;
+    font-size:20px;font-weight:700;
     letter-spacing:0.02em;
     display:flex;align-items:center;gap:2px;
   }
   .logo span{color:var(--accent);}
-  .logo-img{height:60px;width:auto;display:block;}
+  .logo-img{height:72px;width:auto;display:block;object-fit:contain;}
 
   nav ul{list-style:none;display:flex;gap:32px;align-items:center;}
   nav a{
@@ -135,7 +135,7 @@
 
   @media (max-width:760px){
     nav ul{
-      position:fixed;top:72px;left:0;right:0;
+      position:fixed;top:100px;left:0;right:0;
       background:var(--bg-alt);
       flex-direction:column;
       padding:24px;
